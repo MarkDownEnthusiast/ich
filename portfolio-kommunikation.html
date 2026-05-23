@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Glaubenskommunikation &amp; Kampagnen-Portfolio von Johannes Geis. Strategische Medienkonzepte, Content-Strategien und Zielgruppenanalysen im Bistum Essen.">
+    <title>Glaubenskommunikation Portfolio | Johannes Geis</title>
+    <link rel="stylesheet" href="index.css">
+    <style>
+        /* Specific Styles for Portfolio Subpages */
+        .portfolio-header {
+            padding: 150px 0 60px 0;
+            background: linear-gradient(180deg, var(--bg-dark-1) 0%, var(--bg-dark-2) 100%);
+            text-align: center;
+        }
+        .portfolio-header h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+        .portfolio-back-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            color: var(--gold-light);
+            font-size: 0.95rem;
+            margin-bottom: 2rem;
+            transition: var(--transition);
+        }
+        .portfolio-back-link:hover {
+            color: var(--gold);
+            transform: translateX(-5px);
+        }
+        .portfolio-content-section {
+            padding: 80px 0;
+        }
+        .portfolio-grid-cards {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 2.5rem;
+            margin-top: 3rem;
+        }
+        .portfolio-item-card {
+            padding: 2.5rem;
+            display: flex;
+            flex-direction: column;
+            gap: 1.2rem;
+        }
+        .portfolio-item-tag {
+            font-size: 0.75rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            color: var(--gold);
+        }
+        .portfolio-item-card h3 {
+            font-size: 1.5rem;
+        }
+        .portfolio-item-card p {
+            font-size: 0.95rem;
+            line-height: 1.6;
+        }
+        .placeholder-note {
+            background: rgba(212, 175, 55, 0.05);
+            border: 1px dashed var(--gold-muted);
+            border-radius: 8px;
+            padding: 1.5rem;
+            font-size: 0.9rem;
+            color: var(--text-muted);
+            text-align: center;
+            margin-top: 3rem;
+        }
+        @media (max-width: 768px) {
+            .portfolio-grid-cards {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+            }
+            .portfolio-header h1 {
+                font-size: 2.2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- HEADER / NAVIGATION (Glassmorphic) -->
+    <header class="header" id="main-header">
+        <div class="container nav-container">
+            <a href="index.html#hero" class="logo" id="nav-logo">
+                JG<span class="logo-dot"></span>
+            </a>
+            <button class="nav-toggle" id="nav-menu-toggle" aria-label="Menü öffnen" aria-expanded="false">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="4" y1="12" x2="20" y2="12"></line>
+                    <line x1="4" y1="6" x2="20" y2="6"></line>
+                    <line x1="4" y1="18" x2="20" y2="18"></line>
+                </svg>
+            </button>
+            <nav class="nav-menu" id="nav-menu-list">
+                <a href="index.html#hero" class="nav-link">Home</a>
+                <a href="index.html#about" class="nav-link">Über mich</a>
+                <a href="index.html#portfolio" class="nav-link">Portfolio</a>
+                <a href="index.html#timeline" class="nav-link">Werdegang</a>
+                <a href="index.html#configurator" class="nav-link">Fortbildung</a>
+                <a href="index.html#contact" class="nav-link">Kontakt</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        
+        <!-- SUBPAGE HEADER -->
+        <section class="portfolio-header">
+            <div class="container">
+                <a href="index.html#portfolio" class="portfolio-back-link">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>
+                    Zurück zur Startseite
+                </a>
+                <h1 class="glow-text-gold">Kampagnen &amp; Medienstrategie</h1>
+                <p class="section-subtitle">Ein Auszug meiner crossmedialen Glaubenskommunikation und konzeptionellen Arbeit im Bistum Essen.</p>
+            </div>
+        </section>
+
+        <!-- CONTENT SECTION -->
+        <section class="portfolio-content-section">
+            <div class="container">
+                <div class="reveal">
+                    <h2 style="font-family: var(--font-serif); font-size: 2rem; margin-bottom: 1rem;">Bisherige Projekte &amp; Kampagnenideen</h2>
+                    <p style="color: var(--text-muted); max-width: 750px;">
+                        Hier entsteht eine Übersicht meiner strategischen Konzepte, Initiativen und reichweitenstarken Medienkampagnen, mit denen ich theologische Kernbotschaften modern und zielgruppenorientiert in die Lebenswelten der Menschen trage.
+                    </p>
+                </div>
+
+                <div class="portfolio-grid-cards">
+                    <!-- Project Item 1 -->
+                    <div class="portfolio-item-card glass-panel reveal">
+                        <span class="portfolio-item-tag">Crossmediale Kampagne</span>
+                        <h3>Kampagnenidee: Glauben im Revier</h3>
+                        <p>
+                            Entwicklung einer crossmedialen Bild- und Textkampagne, die traditionelle Wurzeln des Ruhrgebiets mit zeitgemäßen spirituellen Fragen verbindet. Ausgerichtet auf eine breite Öffentlichkeit über Social Media und Plakataktionen im urbanen Raum.
+                        </p>
+                    </div>
+
+                    <!-- Project Item 2 -->
+                    <div class="portfolio-item-card glass-panel reveal delay-1">
+                        <span class="portfolio-item-tag">Zielgruppenanalyse</span>
+                        <h3>Konzept: Katechese 4.0</h3>
+                        <p>
+                            Wissenschaftlich und praktisch fundierte Neuausrichtung kirchlicher Katecheseangebote. Durch zielgruppenfokussierte Kommunikationsstrategien erreichen wir Jugendliche und junge Erwachsene dort, wo sie sich digital bewegen.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Easy-to-use placeholder note for the user's future expansions -->
+                <div class="placeholder-note reveal">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-bottom: 0.8rem; color: var(--gold);"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>
+                    <p>
+                        <strong>Tipp für die Zukunft:</strong> Diese Seite wurde als strukturierter Platzhalter vorbereitet. Wenn Sie mir Ihre konkrete Gliederung, Kampagnen-Logos oder weitere Texte schicken, können wir diese Sektionen ganz nach Ihren Wünschen weiter ausbauen und mit echtem Bildmaterial anreichern.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- CONTACT & FOOTER SECTION -->
+    <footer class="footer" id="contact">
+        <div class="container footer-grid">
+            <div class="footer-about">
+                <h2 class="text-gold glow-text-gold">Johannes Geis</h2>
+                <p>
+                    Lassen Sie uns gemeinsam innovative Wege in der Glaubenskommunikation und Pastoral beschreiten. Ich freue mich auf den Austausch.
+                </p>
+                <div class="footer-socials">
+                    <a href="https://www.linkedin.com/in/johannes-geis-029358204/" target="_blank" rel="noopener" class="social-btn linkedin" id="social-linkedin" aria-label="LinkedIn Profil">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                    </a>
+                    <a href="https://www.xing.com/profile/Johannes_Geis10" target="_blank" rel="noopener" class="social-btn xing" id="social-xing" aria-label="XING Profil">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18.84 21L12.4 12l6.44-9h-3.47L9.43 11l-.01.01L6.2 6.53 9.4 2h3.33L6.22 12l6.39 9h3.33z"/></svg>
+                    </a>
+                    <a href="https://www.instagram.com/joh_faithful/" target="_blank" rel="noopener" class="social-btn instagram" id="social-instagram" aria-label="Instagram Profil">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="footer-contact">
+                <div class="contact-card glass-panel" id="main-contact-card">
+                    <span class="contact-card-title">Direkter Kontakt</span>
+                    <div class="email-wrapper">
+                        <span class="email-label">Offizielle E-Mail-Adresse:</span>
+                        <a href="#" class="obfuscated-email" id="contact-email-action">
+                            <span id="obfuscated-email-display">johannes.geis [at] bistum-essen.de</span>
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="container footer-bottom">
+            <p>&copy; 2026 Johannes Geis. Alle Rechte vorbehalten.</p>
+            <div class="footer-bottom-links">
+                <a href="#" class="footer-link" id="trigger-impressum">Impressum</a>
+                <a href="#" class="footer-link" id="trigger-datenschutz">Datenschutz</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- IMPRESSUM MODAL -->
+    <div class="modal-overlay" id="modal-impressum" role="dialog" aria-modal="true" aria-labelledby="modal-impressum-title">
+        <div class="modal-content glass-panel">
+            <button class="modal-close" aria-label="Schließen" data-modal="modal-impressum">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+            </button>
+            <h2 id="modal-impressum-title" class="text-gold">Impressum</h2>
+            <div class="modal-body">
+                <h3>Angaben gemäß § 5 TMG</h3>
+                <p>
+                    Johannes Geis<br>
+                    c/o Bischöfliches Generalvikariat Essen<br>
+                    Zwölfling 16<br>
+                    45127 Essen
+                </p>
+                <h3>Kontakt</h3>
+                <p>
+                    E-Mail: <span class="modal-obfuscated-email">johannes.geis [at] bistum-essen.de</span><br>
+                    Telefon: +49 (0) 201 2204 0 (Zentrale Generalvikariat)
+                </p>
+                <h3>Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV</h3>
+                <p>
+                    Johannes Geis<br>
+                    Zwölfling 16<br>
+                    45127 Essen
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- DATENSCHUTZ MODAL -->
+    <div class="modal-overlay" id="modal-datenschutz" role="dialog" aria-modal="true" aria-labelledby="modal-datenschutz-title">
+        <div class="modal-content glass-panel">
+            <button class="modal-close" aria-label="Schließen" data-modal="modal-datenschutz">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+            </button>
+            <h2 id="modal-datenschutz-title" class="text-gold">Datenschutzerklärung</h2>
+            <div class="modal-body">
+                <h3>1. Datenschutz auf einen Blick</h3>
+                <p>Diese Datenschutzerklärung klärt Sie über die Art, den Umfang und Zweck der Verarbeitung von personenbezogenen Daten innerhalb dieses Onlineangebotes auf.</p>
+                <h3>2. Hosting über GitHub Pages</h3>
+                <p>Unsere Website wird auf Servern von GitHub Inc., USA gehostet. GitHub erfasst automatisch Server-Log-Dateien zur technischen Bereitstellung. Details in der Datenschutzerklärung von GitHub.</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
